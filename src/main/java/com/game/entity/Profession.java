@@ -1,5 +1,10 @@
 package com.game.entity;
 
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Enumerated;
+
+
 public enum Profession {
     WARRIOR,
     ROGUE,
